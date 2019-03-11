@@ -123,3 +123,4 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 
 # The URL to redirect the user upon a successful login
 LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
